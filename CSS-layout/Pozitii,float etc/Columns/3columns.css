@@ -1,0 +1,37 @@
+*{
+  box-sizing:border-box;
+}
+row::after{
+  clear:both;
+  content:"";
+  display:table;
+
+}
+.col{
+  float:left;
+  display:inline-block;
+  padding:1vw;
+  text-align:justify;
+
+}
+.col3{
+  width:33.3%;
+}
+hr{
+  display:none;
+}
+@media   screen and (max-width:600px){
+  .col3{
+
+    width:100%;
+    float:none;
+
+
+  }
+  .row{
+    padding-right:5vw;
+  }
+  hr{
+    display:block;
+  }
+}

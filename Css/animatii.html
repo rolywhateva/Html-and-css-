@@ -1,0 +1,144 @@
+<html>
+    <head>
+      <style>
+  @keyframes ex1 {
+      from
+      {
+        background-color:red;
+
+      }
+     to{
+       background-color:blue;
+     }
+  }
+  div
+  {
+    width:200px;
+    height:200px;
+    margin-top:20px;
+  }
+   div#div1
+  {
+       background-color:red;
+       animation-name:ex1;
+       animation-duration: 4s;
+
+   }
+   @keyframes ex2{
+     0%   {background-color: red;}
+   25%  {background-color: yellow;}
+   50%  {background-color: blue;}
+   100% {background-color: green;}
+ }
+
+ div#div2
+ {
+   animation-name:ex2;
+   animation-duration:4s;
+   background-color:red;
+ }
+ @keyframes ex3
+ {
+   0%
+   {
+     background-color:red;
+     left:0px;
+     top:0px;
+
+   }
+   25%
+   {
+     background-color:green;
+     left:200px;
+     top:0px;
+   }
+   50%
+   {
+     background-color:blue;
+     left:200px;
+     top:200px;
+   }
+   75%
+   {
+     background-color:cyan;
+     left:0px;
+     top:200px;
+   }
+   100%
+   {
+     top:0px;
+     left:0px;
+     background-color:red;
+   }
+
+ }
+ div#div3
+ {
+   position:relative;
+   animation-name: ex3;
+   animation-duration: 6s;
+   background-color:red;
+ }
+ *{
+   animation-iteration-count: infinite;
+ }
+ .normal
+ {
+   animation-direction: normal;
+ }
+ /*
+ in ordine normala, apoi inversa
+ */
+ .alternate
+ {
+   animation-direction:alternate;
+ }
+ /*
+ invers, apoi in ordinea normala
+ */
+ .alternate-reverse
+ {
+   animation-direction:alternate-reverse;
+
+ }
+ /*
+ In ordine inversa
+ */
+ .reverse
+ {
+   animation-direction:reverse;
+ }
+.div1 {animation-timing-function: linear;}
+.div2 {animation-timing-function: ease;}
+.div3 {animation-timing-function: ease-in;}
+.div4 {animation-timing-function: ease-out;}
+.div5 {animation-timing-function: ease-in-out;}
+@keyframes ex4
+{
+  from {left: 0px;}
+   to {left: 300px;}
+}
+
+  </style>
+    </head>
+    <body>
+         <div id="div1" class="normal"></div>
+         <div id="div2" class="reverse"> </div>
+         <div id="div3" class="alternate-reverse"> </div>
+         <!-- Animatie cu intarziere -->
+         <div id="div3" style="animation-delay:3s"> </div>
+         <!-- Animatie care se grabeste -->
+         <div id="div3" style="animation-delay:-1s"> </div>
+        <!-- Animatie care se executa de 3 ori -->
+        <div id="div3" style="animation-iteration-count:3"> </div>
+        <!--Animatie care se executa la infinit -->
+        <div id="div1" style="animation-iteration-count:infinite"> </div>
+  <div class="div1"></div>
+  <div class="div2"></div>
+  <div class="div3"></div>
+  <div class="div4"></div>
+  <div class="div5"></div>
+
+
+    </body>
+</html>

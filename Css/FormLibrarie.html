@@ -1,0 +1,113 @@
+<!Doctype html>
+<html>
+   <head>
+   	  <style>
+   	  :root{
+
+
+   	  --ColorOfWritingAndBackground:lightgreen;
+   	}
+      body{
+      	background-color:lightgray;
+      }
+      #ClientForm
+      {
+      	background-color:var(--ColorOfWritingAndBackground);
+      	border:3px solid var(--ColorOfWritingAndBackground);
+      	border-radius:20px;
+      	font-family:cursive;
+      	font-size:20px;
+      	margin:0 10em 0 10em;
+      	align-content: center;
+      }
+      label
+      {
+      	display:block;
+      }
+   	</style>
+   </head>
+   <body>
+
+      <form Id="ClientForm">
+
+      Title : 
+      		<input type="text" placeholder="Enter the title here" > <br>
+      Author :
+      		 <input type="text" placeholder="Enter Author here"> <br>
+      Year : 
+     		 <input type="text" placeholder="Enter the year the book was published" > <br>
+      Genre:  <br>
+      		<label for="adventure" class="liner">
+		      		<input  id="adventure" type="checkbox" name="genre" checked>
+		      	   			Adventure
+		      		</label>
+		     <label for="fantasy">
+			      	<input id="fantasy" type="checkbox" name="genre">
+			      	    Fantasy
+		     </label>
+		     <label for="horror">
+			      	<input id="horror" type="checkbox" name="genre">
+			      	    Horror
+		     </label>
+		      <label for="Love">
+			      	<input id="Love" type="checkbox" name="genre">
+			      	    Love
+		     </label>
+		       <label for="ShortStory">
+			      	<input id="ShortStory" type="checkbox" name="genre">
+			      	   Short Story
+		     </label>
+		      <label for="Comedy">
+			      	<input id="Comedy" type="checkbox" name="genre">
+			      	   Comedy
+		     </label>
+		      <label for="Errotica">
+			      	<input id="Errotica" type="checkbox" name="genre">
+			      	   Errotica
+		      </label>
+		       <label for="Documentary">
+			      	<input id="Documentary" type="checkbox" name="genre">
+			      	    Documentary
+		       </label>
+		        <label for="Commentary">
+			      	<input id="Commentary" type="checkbox" name="genre">
+			      	     Commentary
+		       </label>
+		       <label for="Other">
+			      	<input id="Other" type="checkbox" name="genre">
+			      	    Other
+		       </label> <br> 
+	Target Audience : 
+	   		   <label for="Everyone"> 
+	   		   	  <input id="Everyone" type="radio" name="TargetAudience"> 
+	   		   	        Everyone
+	   		   </label>
+	   		   <label for="12+"> 
+	   		   	  <input id="TwenteenPlus" type="radio" name="TargetAudience"> 
+	   		   	      12+
+	   		   </label>
+	   		    <label for="18+"> 
+	   		   	  <input id="EighteenPlus" type="radio" name="TargetAudience"> 
+	   		   	      18+
+	   		   </label>
+	   		    <label for="Restricted"> 
+	   		   	  <input id="Restricted" type="radio" name="TargetAudience"> 
+	   		   	      Restricted <sup>1 </sup>
+	   		   </label>
+
+
+
+
+     
+
+     
+
+
+
+
+
+
+      </form>
+   </body>
+
+</html>

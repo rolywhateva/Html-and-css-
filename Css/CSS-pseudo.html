@@ -1,0 +1,93 @@
+<html>
+  <head>
+     <style>
+      /*
+      pseudoclase =clase care isi manifesta efectul daca elementele sunt intr-o stare speciala.
+
+      */
+      /*
+       element : pseudoclasa
+       {
+        proprietate:valoare;
+       }
+     }
+      */
+      /* hover = atunci cand mouse-ul se afla pe element */
+
+      p.tooltip
+      {
+        display:none;
+      }
+     p:hover
+     {
+       text-decoration:underline;
+     }
+     p.par:hover
+     {
+       font-weight:bold;
+     }
+    /*
+    first-child = selecteaza toate elementele de un tip care sunt primul copil a unui alt element.
+    */
+    p:first-child
+    {
+      color:blue;
+      font-weight:bold;
+    }
+    /*
+    toate elementele i din p care sunt primul copil
+    */
+    p i:first-child
+    {
+
+    }
+    /*
+    toate elementele  i, care fac parte dintr-un p  care este primul copil a unui alt element.
+    */
+    p:fist-child i
+    {
+
+    }
+    /*
+    pseudo-element:  este folosit pentru a formata parti specifice dintr-un element.
+    element:pseudo-element
+    {
+      proprietate:valoare;
+  }
+    */
+    p::first-line
+    {
+      font-size:25px;
+    }
+    p::first-letter
+    {
+      font-size:30px;
+      color:blue;
+    }
+    h1::before
+    {
+      content:"->";
+    }
+    h1::after
+    {
+      content:"<-";
+    }
+    ::selection
+    {
+      background-color:pink;
+    }
+    */
+     </style>
+  </head>
+  <body>
+   <p> Whatever WhateverWhateverWhatever<br>WhateverWhateverWhateverWhateverWhateverWhateverWhateverWhatever</p>
+   <p class="par"> Whatever </p>
+   <div>
+       <p> Voila! </p>
+  </div>
+  <h1>Bitch </h1>
+
+
+
+
+  </body>

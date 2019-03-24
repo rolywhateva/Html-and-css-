@@ -1,0 +1,35 @@
+ul
+{
+	list-style-type:none;
+}
+li
+{
+	display:inline;
+}
+a:link{
+	color:black;
+	padding:7px;
+	margin:10px;
+    border:1px solid lightgreen;
+    font-size:3.5vh;
+    font-family:cursive;
+    letter-spacing:3px;
+    text-decoration:none;
+}
+a:visited
+{
+	color:blue;
+}
+
+a:hover
+{
+	background-color:lightgreen;
+	color:white;
+	text-decoration:underline;
+	text-decoration-color:white;
+}
+a:active
+{
+	color:red;
+	font-weight: bold;
+}

@@ -1,0 +1,44 @@
+body
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.wrap
+{
+
+ padding:2vh 2vw;
+}
+.wrap:after{
+  content:"";
+  clear:both;
+  display:table;
+}
+.col1{
+ display:inline-block;
+ float:left;
+ width:45%;
+ padding:0.5em;
+ text-align:justify;
+
+
+
+}
+hr{
+  display:none;
+}
+@media   screen and (max-width:600px){
+  .col1{
+
+    width:100%;
+    float:none;
+
+
+  }
+  .wrap{
+    padding-right:5vw;
+  }
+  hr{
+    display:block;
+  }
+}

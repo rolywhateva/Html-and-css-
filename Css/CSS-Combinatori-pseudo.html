@@ -1,0 +1,53 @@
+<html>
+  <head>
+       <style>
+       /*
+       el1 el2 ->el2 care au ca  ascendent  un el1
+       */
+
+         div p
+         {
+           background-color:yellow;
+         }
+         /*
+         el1>el2-> el2 care au ca parinte un el1
+         */
+         div>p
+         {
+           background-color:green;
+         }
+         /*
+          el1+el2->el2 care  se afla imediat dupa  el1
+         */
+         div+p
+         {
+           background-color:blue;
+         }
+         /*
+         el1~el2 ->el2 care este frate cu el1
+
+         */
+         div~ul
+         {
+           list-style-type:none;
+         }
+
+
+       </style>
+
+  </head>
+  <body>
+    <div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <span><p>Paragraph 3 in the div.</p></span>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+<ul>
+  <li> item </li>
+    <li> item </li>
+      <li> item </li>
+  </ul>
+  </body>

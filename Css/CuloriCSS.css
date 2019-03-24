@@ -1,0 +1,56 @@
+div
+{
+	padding:5px;
+	width:100px;
+	height:100px;
+	display:inline;
+	margin:5px;
+
+
+}
+#id1
+{
+	background-color:tomato;
+
+}
+#id2
+{
+  background-color:orange;
+}
+#id3
+{
+  background-color:lightgreen;
+}
+#id4
+{
+  background-color:darkblue;
+}
+#id5
+{
+ background-color:slateblue;
+}
+#id6
+{
+ background-color:rgb(154, 142, 160);
+}
+#id7
+{
+	background-color:#3cb371;
+}
+#id8
+{
+	background-color:hsl(240, 100%, 50%);
+}
+#id9
+{
+	background-color:hsl(240, 0%, 50%);
+}
+#id10
+{
+	background-color:hsl(140, 100%, 50%);;
+}
+#id11
+{
+	background-color:hsl(140,100%,25%);
+}
+

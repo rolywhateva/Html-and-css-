@@ -1,0 +1,78 @@
+table,tr,td,th
+{
+	border:3px solid black;
+	border-collapse: collapse;
+	vertical-align: top;
+
+
+}
+table
+{
+	width:500px;
+}
+td,th
+{
+	padding:5px;
+	text-align:center;
+}
+td p
+{
+	border-bottom:3px solid black;
+
+}
+div
+{
+   border:3px solid black;
+   padding:5px;
+   
+  
+}
+
+#div1
+{
+	width:500px;
+   margin:auto;
+}
+#div2
+{
+	max-width:500px;
+	margin:auto;
+}
+#div3
+{
+	position: relative;
+	left:80px;
+}
+#div4
+{
+	position:relative;
+	top:80px;
+}
+#div5
+{
+	position:fixed;
+	left:800px;
+}
+
+#div6
+{
+	margin-top:100px;
+	width:800px;
+	height:400px;
+	position:relative;
+}
+#div7
+{
+	width:300px;
+	height:150px;
+	position:absolute;
+	right:0;
+	bottom:8px;
+}
+.p-sticky
+{
+	position:sticky;
+	top:0;
+	border:3px solid black;
+	z-index:-1;/*va fi deasupra elementelor*/
+}

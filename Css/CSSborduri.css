@@ -1,0 +1,73 @@
+.dotted
+{
+	border-style:dotted;
+
+}
+.dashed{
+	border-style:dashed;
+}
+.solid
+{
+	border-style:solid;
+}
+.double
+{
+	border-style:double;
+}
+.groove
+{
+	border-style:groove;
+	border-color:lightblue;
+}
+.ridge
+{
+	 border-style:ridge;
+	 border-color:darkred;
+}
+.inset
+{
+	border-style:inset;
+	border-color:tomato;
+}
+.outset
+{
+	border-style:outset;
+	border-color:orange;
+}
+.none
+{
+	border-style:none;
+}
+.hidden
+{
+	border-style:hidden;
+}
+.mix
+{
+	border-style:dotted dashed  none ridge;
+}
+
+.shorthandborder
+{   /*grosime stil culoare */
+	border: 3px dotted blue;
+	/*sau 
+	  border-width:3px;
+	  border-style:dotted;
+	  border-color:blue;
+	 */
+
+}
+.wierd-borders
+{
+	border-left:3px solid red;
+	border-right:10px dotted orange;
+	border-top:7px ridge crimson;
+	border-bottom:2px outset violet;
+	border-radius:10px;
+}
+.bordura-numai-sus
+{
+	 border-top-style:dotted;
+    border-top-width: 4px;
+    border-top-color: red;
+}

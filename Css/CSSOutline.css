@@ -1,0 +1,40 @@
+p.dotted
+{
+   outline-style:dotted;
+   outline-width:thin;
+   outline-offset:3px;
+}
+p.dashed
+{
+	outline-style: dashed;
+	outline-width:thick;
+	outline-offset:5px;
+}
+p.solid
+{
+	outline-style:solid;
+	outline-color:green;
+	outline-width:10px;
+}
+p.double
+{
+	outline-style:double;
+}
+p.groove
+{
+	outline-style:groove;
+}
+p.ridge
+{
+	outline-style:ridge;
+}
+p.inset
+{
+	outline-style:inset;
+}
+p.outset
+{
+  outline:5px solid tomato;
+  border:5px solid red;
+}
+

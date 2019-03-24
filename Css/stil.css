@@ -1,0 +1,21 @@
+p
+{
+	color:red;
+}
+.class-span
+{
+	display:block;
+	background-color:lightblue;
+	border-left:4px solid blue;
+	margin:3em 0 3em 0;
+}
+#id-div
+{
+	font-size:25px;
+	color:orange;
+}
+#id-div:hover
+{
+	font-weight: bold;
+
+}

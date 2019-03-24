@@ -1,0 +1,121 @@
+<html>
+   <head>
+     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Notable" rel="stylesheet">
+ <style>
+ body
+ {
+   background:linear-gradient(to right,#333,gray,tomato,#333);
+ }
+ @keyframes litere
+ {
+    0%
+    {
+
+       color:red;
+    }
+    25%
+    {
+
+      color:darkblue;
+    }
+    50%
+    {
+
+      color:purple;
+    }
+    75%
+    {
+
+      color:darkgreen;
+    }
+    100%
+    {
+
+       color:#eee;
+    }
+
+ }
+ @keyframes  background {
+   0%
+   {
+ background:linear-gradient(to right,#333,lightgreen,#333);
+
+   }
+   25%
+   {
+background:linear-gradient(to right,#333,gold,#333);
+
+   }
+   50%
+   {
+background:linear-gradient(to right,#333,yellow,#333);
+
+   }
+   75%
+   {
+background:linear-gradient(to right,#333,dodgerblue,#333);
+
+   }
+   100%
+   {
+   background:linear-gradient(to right,#333,tomato,#333);
+
+   }
+
+ }
+ h1
+ {
+   animation-name:litere;
+   animation-duration:4s;
+   animation-direction:alternate;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   margin:0;
+   padding:0;
+   letter-spacing: 1vw;
+   font-family:"Lora";
+   text-align:center;
+  margin-top:25%;
+  font-size:5vw;
+
+
+}
+body
+{
+  margin:0;
+  padding:0;
+  animation-name:background;
+  animation-direction:alternate;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-family:'Inconsolata';
+  font-size:2vw;
+  border:3px solid #ddd;
+  background-color:inherit;
+  padding:1vh 1.5vw 1vh 1.5vw;
+  border-radius:2.5vmax;
+  margin-top:5vh;
+}
+
+
+ </style>
+   </head>
+   <body>
+     <h1>Liberation <br>
+          <a href="#">
+            Join now
+        </a>
+    </h1>
+
+
+
+
+
+   </body>
+</html>

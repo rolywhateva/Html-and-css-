@@ -1,0 +1,22 @@
+div{
+  display:inline;
+  border:3px solid black;
+  font-size:20px;
+  padding:5px;
+
+}
+.right
+{
+  float:right;
+}
+.left
+{
+  float:left;
+}
+img{
+  display:inline;
+}
+.clear-right
+{
+  clear:right;
+}
